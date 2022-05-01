@@ -1,0 +1,66 @@
+{
+    "name": "InputManager",
+    "maps": [
+        {
+            "name": "Bird",
+            "id": "a98a9035-641f-45db-af06-b93c62242436",
+            "actions": [
+                {
+                    "name": "Flap",
+                    "type": "Button",
+                    "id": "19f1fc90-b112-4c60-8872-75972d366b05",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "45e67b29-f03c-4249-b615-a4aa9f24aeae",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b7abdf0e-e0fe-48c1-a568-56aff4d50c4b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dec29ce3-1465-4268-87b3-e8aab96b04b6",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01afb57f-0e4c-45d1-9fcf-af9c28feab0e",
+                    "path": "<Touchscreen>/touch0/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
